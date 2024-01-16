@@ -9,13 +9,18 @@
     float: left;
 }
 
-#resultado{
-
-}
 
 #calculadoraImc{
     border: 1px solid black;
     background: rgb(128, 207, 128);
     padding: 10px 15px 10px 15px;
     border-radius: 50px;
+    transition: .75s all ease-in-out;
 }
+
+#calculadoraImc:hover{
+    background: rgb(93, 147, 90);
+    transition: .75s all ease-in-out;
+}
+
+
