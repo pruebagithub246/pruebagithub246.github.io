@@ -1,0 +1,43 @@
+#form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 20px;
+    background: paleturquoise;
+    width: 20%;
+}
+
+.boton{
+    border: 1px;
+    padding: 8px 8px 8px 8px;
+    border-radius: 20px;
+    background: rgb(87, 218, 87);
+    margin-bottom: 5px;
+    z-index: 1;
+}
+
+.boton:hover{
+    background: rgb(68, 237, 68);
+    box-shadow: 0px 3px 5px greenyellow, 0px -3px 5px greenyellow;
+    transition: .5s all ease-in-out;
+}
+
+#producto{
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+    border: 1px;
+}
+
+#producto:focus{
+    border: 1px;
+    box-shadow: 0px 3px 5px greenyellow, 0px -3px 5px greenyellow;
+    transition: .5s all ease-in-out;
+}
+
+#cesta{
+    background: paleturquoise;
+    border-radius: 20px;
+    width: 20%;
+    padding: 5px;
+}
