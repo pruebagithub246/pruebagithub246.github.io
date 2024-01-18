@@ -17,17 +17,15 @@ btnMostrarCesta.addEventListener('click',e=>{
 
 function mostrarCesta(cesta) {
     divCesta.innerHTML='';
-    let idParrafo=1;
     let ul=document.createElement('ul');
     cesta.forEach(producto=>{
         let li=document.createElement('li');
-        li.textContent=idParrafo+'.'+producto.nombre;
+        li.textContent=producto.nombre;
         li.addEventListener('click',(e)=>{
             cesta.splice(cesta.indexOf(producto),1);
             mostrarCesta(cesta);
         })
         ul.appendChild(li);
-        idParrafo++;
     });
     divCesta.append(ul); 
 }
