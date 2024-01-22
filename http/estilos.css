@@ -1,0 +1,41 @@
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.titulos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.producto{
+    width: 40%;
+    border: 1px solid black;
+    background: gainsboro;
+    border-radius: 20px;
+    padding: 4px;
+    margin: 3px;
+}
+
+#imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+img{
+    height: 150px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+img:hover{
+    box-shadow: 5px 5px 5px black;
+    transition: .75s all ease-in-out;
+    transform: rotateY(30deg) rotate(5deg);
+}
