@@ -39,3 +39,7 @@ img:hover{
     transition: .75s all ease-in-out;
     transform: rotateY(30deg) rotate(5deg);
 }
+
+.ocultar{
+    display: none;
+}
